@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/userInputFragment">
+
+    <fragment
+        android:id="@+id/userInputFragment"
+        android:name="com.example.homeworkroom.ui.UserInputFragment"
+        android:label="user_input_fragment"
+        tools:layout="@layout/user_input_fragment" />
+</navigation>
